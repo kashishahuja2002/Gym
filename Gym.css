@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('Gym_images/Background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+#nav{
+    width: 40%;
+    margin: 0px 300px;
+    /* border:2px solid red; */
+}
+
+#nav ul{
+    text-align: center;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#nav li a:hover, #nav li a.current{
+    color: grey;
+    text-decoration: underline;
+}
+
+#logo p{
+    float: left;
+    color: white; 
+    clear: both;
+    /* border: 2px solid red; */
+    margin: 0px 30px;
+    padding: 2px;
+}
+
+#logo img{
+    float: left;
+    margin: 0px 15px;
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+
+#form{
+    color: rgb(212, 209, 209);
+    border: 2px solid rgb(212, 209, 209);
+    border-radius: 10px;
+    width: 400px;
+    margin: 150px 50px;
+    padding-bottom: 6px;
+}
+
+#form input{
+    display: block;
+    margin: 6px auto;
+    border-radius: 4px;
+    text-align: center;
+    width: 250px;
+}
+
+#form .button{
+    width: 70px;
+    margin: 0px 167px;
+    background-color: rgb(212, 209, 209);
+    font-size: 14px;
+    color:black;
+    border-radius: 6px;
+}
+
+#form .button:hover{
+    background-color:rgb(141, 139, 139);
+}
