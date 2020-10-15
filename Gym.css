@@ -3,7 +3,7 @@ body{
     padding: 0px;
     background-image: url('Gym_images/Background_image.jpg');
     background-repeat: no-repeat;
-    background-size: 1400px;
+    background-size: 100%;
 }
 
 #nav{
